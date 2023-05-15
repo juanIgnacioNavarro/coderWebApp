@@ -1,185 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link href="styles/index.css" rel="stylesheet">
-  <title>Nombre de la app</title>
+  <!-- ETIQUETAS META PARA MEJORAR SEO DE LA WEB -->
+  <meta name="description" content="Pagina web para la promocion de un gimnasio">
+  <meta name="keywords" content="gimnasio,actividad fisica,personal trainer">
+  <meta name="author" content="Juan Ignacio Navarro">
+  <link rel="stylesheet" href="./styles/index.css"/>
+  <title>Home</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-none">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Navbar</a>
-      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="components/activities.html">Actividades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="components/branch.html">Sucursales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="components/staff.html">Staff</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="">Acceder</a>
-          </li>
-        </ul>
-      </div>
+  <div class="head">
+    <div class="logo">
+      <!-- LOGO DE LA PAGINA -->
+      <a href="#">GYM</a>
     </div>
-  </nav>
-  <main>
-    <h1 class="titleText m-2 p-0 justify-content-center text-center">Nuestras sedes</h2>
-      <div class="col-auto bg-none p-5 text-center container justify-content-center">
-        <div class="row">
-          <div class="col">
-            <div class="col mb-5">
-              <div class="card" style="width: 18rem;">
-                <img src="media/gimwest.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-dark">
-                  <h3 class="card-title text-white text-center">Sede este</h3>
-                  <p class="card-text bg-dark text-white text-center">Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Voluptatem, fugit cum? Itaque totam repudiandae officia maxime iure libero unde
-                    doloremque qui dolorem? Quam et assumenda culpa recusandae! Vel, voluptatum</p>
-                </div>
-                <div class="card-body text-center bg-none">
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Ubicación</button>
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Contacto</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="col mb-5">
-              <div class="card" style="width: 18rem;">
-                <img src="media/carr2.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-dark">
-                  <h3 class="card-title text-white text-center">Sede central</h3>
-                  <p class="card-text bg-dark text-white text-center">Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit. Soluta asperiores, repellat illo ex nihil tempora fuga, odio dicta cupiditate
-                    facere, voluptates libero? Pariatur suscipit nesciunt ullam id eveniet cum deleniti.</p>
-                </div>
-                <div class="card-body text-center">
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Ubicación</button>
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Contacto</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="col mb-5">
-              <div class="card" style="width: 18rem;">
-                <img src="media/carr3.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-dark">
-                  <h3 class="card-title text-white text-center">Sede Oeste</h3>
-                  <p class="card-text bg-dark text-white text-center">Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Voluptatem, fugit cum? Itaque totam repudiandae officia maxime iure libero unde
-                    doloremque qui dolorem? Quam et assumenda culpa recusandae! Vel, voluptatum</p>
-                </div>
-                <div class="card-body text-center">
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Ubicación</button>
-                  <button class="buttonIndex" type="button" class="btn btn-outline-secondary">Contacto</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- NAVBAR DE LA PAGINA -->
+    <nav class="navbar">
+      <a href="./index.html">Home</a>
+      <a href="./components/activities.html">Actividades</a>
+      <a href="./components/faqs.html">FAQS</a>
+      <a href="./components/staff.html">Staff</a>
+    </nav>
+  </div>
+  <!-- CONTENIDO DE LA PAGINA -->
+  <header class="content header">
+    <h2 class="title">FitZone: Transforma tu Cuerpo</h2>
+    <p>Descubre un nuevo nivel de acondicionamiento físico y bienestar</p>
+      <div class="btn-home">
+        <a href="#" class="btn">Saber mas</a>
       </div>
-  </main>
-  <!-- <div class="col-auto bg-none p-5 text-center container justify-content-center">
-    <div class="row">
-      <div class="col">
-        <div class="col mb-6">
-          <div class="card">
-            <div class="card-body bg-dark">
-              <h1 class="card-title text-white text-center">Nuestras sedes</h1>
-              <h3 class="card-text bg-dark text-white text-center">Todas nuestras sedes cuentan con más de 2000 m2 y
-                el
-                mejor equipamiento para que saques
-                el mejor provecho
-                de tu entrenamiento. !No te lo pierdas! </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="col mb-6">
-          <div class="card">
-            <div class="card-body bg-dark">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="media/carr2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="media/carr3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!--  <div class="col-auto bg-none p-5 text-center container justify-content-center">
-      <div class="row">
-        <div class="col">
-          <h1 class="infoIndex">Nuestros espacios</h1>
-          <h3 class="infoIndex">Todas nuestras sedes cuentan con más de 2000 m2 y el mejor equipamiento para que saques
-            el mejor provecho
-            de tu entrenamiento. !No te lo pierdas! </h3>
-        </div>
-        <div class="col">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="media/carr2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="media/carr3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+  </header>
 </body>
 
 </html>
